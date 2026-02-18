@@ -1,6 +1,30 @@
 @import "tailwindcss";
 
 @theme {
+  --color-background: #f7fafc; /* Soft Off-White */
+  --color-foreground: #1a202c; /* Dark Charcoal */
+
+  --color-card: #ffffff; /* White */
+  
+  --color-primary: #20b2a6; /* Teal */
+  --color-primary-foreground: #ffffff; /* White */
+
+  --color-secondary: #2c3e50; /* Dark Blue-Gray */
+  --color-secondary-foreground: #20b2a6; /* Teal */
+
+  --color-muted: #94a3b8; /* Cool Gray */
+  --color-muted-foreground: #64748b; /* Light Gray */
+
+  --color-border: #e2e8f0; /* Light Gray */
+
+  --radius: 0.75rem;
+
+  --color-highlight: #ff6b6b; /* Coral Red */
+  --color-surface: #edf2f7; /* Light Grayish Blue */
+}
+
+/* Old Colors */
+/* @theme {
   --color-background: #469279;
   --color-foreground: #f0f2f5;
 
@@ -21,7 +45,7 @@
 
   --color-highlight: #f5a623;
   --color-surface: #1a2329;
-}
+} */
 
 @layer base {
 
@@ -61,6 +85,11 @@
       text-shadow: 0 0 30px color-mix(in srgb, var(--color-primary) 50%, transparent)
     }
 
+    .glow-border{
+      box-shadow: 0 0 20px color-mix(in srgb, var(--color-primary) 20%, transparent),
+        inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, color transparent);
+    }
+
 
   }
 
@@ -97,11 +126,37 @@
       75% {
         transform: translate(30px, 10px);
       }
+    }
 
+    @keyframes float{
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
     }
 
     .animate-fade-in {
       animation: fade-in 0.8s ease-out both;
+    }
+
+    .animate-float {
+      animation: float 4s ease-in-out infinite;
+    }
+
+    .animate-marquee {
+      animation: marquee 30s linear infinite;
     }
 
     .animation-delay-100 {
@@ -136,7 +191,27 @@
       animation-delay: 800ms;
     }
 
+    @keyframes animated-border {
+      0% {
+        stroke-dashoffset: 400;
+      }
+      100% {
+        stroke-dashoffset: -550;
+      }
+    }
+
+    .group:hover .animated-border-path {
+      animation: animated-border 1.5s linear infinite; 
+
+    }
     
+    .animated-border:hover {
+      background-color: color-mix(in srgb, #26c4b8 15%, transparent); 
+      backdrop-filter: blur(16px);
+      box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
+    }
+
+
 
      
 
