@@ -1,0 +1,53 @@
+3/17/26, 3:29 PMResume.pdf
+Page 1 of 1https://www.resume.lol/editor/265aa0a7-2e58-4b52-ab89-b0f48d9c4819
+NICHOLAS FERREIRAnicholasjferreira98@gmail.com•(925) 586-2076•linkedin.com/in/nicholas-ferreiraswe•github.com/NFerreira98
+EDUCATION
+California State University East Bay | Hayward, CA May 2025
+Bachelor of Science in Computer Science, Institution GPA: 4.0/4.0
+Involvement: Google Developer Student Club, Math Engineering Science Achievement (MESA) Program
+TECHNICAL SKILLS
+Languages: Python, C++, Java, JavaScript/TypeScript, SQL
+Tools/Frameworks: PyTest, Git/GitHub, Jira, Salesforce, Node.js, NumPy, Google Cloud Platform
+Concepts: OOP & design patterns, Agile, Data structures/algorithms, SDLC, Unit & Functional testing
+EXPERIENCE
+Coding Instructor | Hackingtons Jan 2026 — Present
+Teach project-based coding to ~45 students per day in web dev, Python, game dev, and intro circuits
+Set up and maintain classroom tech (browsers, Scratch, IDEs, drivers) and triage common issues including
+account login, permissions, and device quirks
+Diagnose and resolve student code issues in real time including syntax, logic, and input bugs
+Machine Learning Researcher | CSU East Bay & UC MercedAug 2024 — Aug 2025
+Assessed privacy risks in large language models by creating Python-based evaluation pipelines to test
+model behavior on sensitive inputs and identify where private data might be exposed
+Developed privacy-preserving techniques performed on Llama and CLIP to discourage memorization and
+reduce training-data leakage
+Designed reproducible Python environments and validated results with test datasets and scripted checks
+Student Technical Assistant | CSU East Bay MESA UniversityAug 2024 — Dec 2024
+Provided front-line support at workshops/hackathons (Windows sign-in/profile, MS365/Outlook setup,
+Wi-Fi/printing, AV/projectors)
+Developed and maintained a responsive hackathon website using HTML, CSS, and JavaScript to handle
+registration and event updates, attracting 200+ visitors
+Hosted a workshop on using Git and GitHub, teaching 25 attendees version control and collaboration
+techniques for projects
+Software Engineer Intern | Lawrence Berkeley National LaboratoryJun 2024 — Aug 2024
+Developed algorithms to improve capabilities of web-based 3D visualization tools for large-scale micro-ct
+data sets collected at the Advanced Light Source synchrotron
+Leveraged NumPy and itkwidgets in Jupyter Notebook for real-time visualization of data sets and to develop
+30 test cases for algorithm validation
+Wrote unit tests using PyTest to ensure algorithm reliability, robustness, and correctness
+Delivered a poster presentation of findings to an audience of 50+ researchers and scientists at Berkeley Lab
+PROJECTS
+Second Sight – AI-Powered Surveillance System Feb 2025
+Won 1st place for Best Use of Active Loop @ Weights & Biases AI Agent Hackathon
+Developed an AI-driven security solution that repurposes old devices into smart surveillance cameras
+Implemented real-time motion detection using OpenCV, natural language captioning via Google Gemini, and
+semantic search powered by TogetherAI embeddings stored in ActiveLoop’s Deep Lake
+Built a scalable Next.js interface with WebSockets for real-time streaming and AI-driven event notifications
+Java Banking App Jan 2025
+Built a client/server application with account operations, input validation, and structured logging
+Created a JUnit suite covering authentication, account operations, error paths, and boundary conditions
+Authored an SRS (requirements & constraints) and ran reviews with stakeholders to align scope
+StageReady - AI Presentation Coach Oct 2024
+Developed StageReady, a web-based application to help individuals improve public speaking skills
+Integrated Hume AI's expression measurement model to analyze emotions during presentations
+Leveraged Deepgram's voice transcription to convert recorded speech into text
+Analyzed speech content with Groq, providing real-time scoring + feedback on speech delivery
